@@ -52,7 +52,7 @@ A simple web application to be used as an ssh client to connect to your ssh serv
 
 ```bash
 # start a http server with specified listen address and listen port
-wssh --address='2.2.2.2' --port=8000
+wssh --address='2.2.2.2' --port=8000 --fbidhttp=False #https://github.com/huashengdun/webssh/issues/63
 
 # start a https server, certfile and keyfile must be passed
 wssh --certfile='/path/to/cert.crt' --keyfile='/path/to/cert.key'
